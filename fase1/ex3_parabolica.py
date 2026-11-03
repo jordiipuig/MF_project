@@ -4,16 +4,16 @@ matplotlib.use("Agg")   # quitar esta linea en PyCharm
 import matplotlib.pyplot as plt
 
 # Parametros fisicos
-alpha = 1.0
-L     = 1.0
+alpha = 0.01
+L     = 10.0
 C1    = 0.0    # valor en y=0
-C2    = 1.0    # valor en y=L
+C2    = 2.0    # valor en y=L
 C3    = 0.0    # valor inicial
 
 # Parametros numericos
 n  = 10        # numero de intervalos en y
-m  = 1000      # numero de pasos de tiempo
-T  = 1.0       # tiempo total
+m  = 40        # numero de pasos de tiempo
+T  = 2000.0    # tiempo total
 
 dy = L / n
 dt = T / m
